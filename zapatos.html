@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Zarapatos</title>
+    <!-- Scripts de funcionamiento de Bootstrap y Bootstrap icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="Logo" width="90" height="90" class="d-inline-block align-text-top">
+            </a>
+            <div class="d-flex flex-grow-1">
+                <h1 class="zarapatos">Zarapatos</h1>
+            </div>
+            <!-- Botón del menú -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><h4>Home</h4></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="zapatos.html"><h4>Zapatos</h4></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"><h4>About</h4></a>
+                    </li>
+                </ul>
+                <!-- Barra de búsqueda -->
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar">
+                    <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <div class="d-flex align-items-center justify-content-between mb-4">
+            <!-- Dropdown -->
+            <div class="dropdown me-3">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    Seleccionar
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">Calzado de hombre</a></li>
+                    <li><a class="dropdown-item" href="#">Calzado de mujer</a></li>
+                    <li><a class="dropdown-item" href="#">Calzado de niño/a</a></li>
+                </ul>
+            </div>
+            <h1 class="text-center flex-grow-1" id="nuestrosProductos">Nuestros Productos</h1>
+            <!-- Botón Ver Stock -->
+            <a href="stock.html" class="btn btn-primary ms-3">Ver Stock</a>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/zapato1.jpg" class="card-img-top" alt="Zapato 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Zapato Clásico</h5>
+                        <p class="card-text">$50.00</p>
+                        <button class="btn btn-primary">Ver Producto</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/zapato2.jpg" class="card-img-top" alt="Zapato 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Zapato Deportivo</h5>
+                        <p class="card-text">$65.00</p>
+                        <button class="btn btn-primary">Ver Producto</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/zapato3.jpg" class="card-img-top" alt="Zapato 3">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Zapato Casual</h5>
+                        <p class="card-text">$55.00</p>
+                        <button class="btn btn-primary">Ver Producto</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/zapato4.jpg" class="card-img-top" alt="Zapato 4">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Zapato Formal</h5>
+                        <p class="card-text">$70.00</p>
+                        <button class="btn btn-primary">Ver Producto</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/zapato5.jpg" class="card-img-top" alt="Zapato 5">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Botas de Invierno</h5>
+                        <p class="card-text">$80.00</p>
+                        <button class="btn btn-primary">Ver Producto</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/zapato6.jpg" class="card-img-top" alt="Zapato 6">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Sandalias</h5>
+                        <p class="card-text">$35.00</p>
+                        <button class="btn btn-primary">Ver Producto</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/zapato7.jpg" class="card-img-top" alt="Zapato 7">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Zapatos de Cuero</h5>
+                        <p class="card-text">$90.00</p>
+                        <button class="btn btn-primary">Ver Producto</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/zapato8.jpg" class="card-img-top" alt="Zapato 8">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Mocasines</h5>
+                        <p class="card-text">$60.00</p>
+                        <button class="btn btn-primary">Ver Producto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <!-- Secciones principales -->
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5>Sobre Nosotros</h5>
+                    <p>
+                        Somos un equipo dedicado a ofrecer contenido de calidad. Este sitio es un ejemplo
+                        para aprender y practicar diseño web.
+                    </p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Enlaces Útiles</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="zapatos.html" class="text-white text-decoration-none">Zapatos</a></li>
+                        <li><a href="about.html" class="text-white text-decoration-none">Sobre Nosotros</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Conéctate con Nosotros</h5>
+                    <a href="#" class="text-white text-decoration-none me-2">
+                        <i class="bi bi-facebook"></i> Facebook
+                    </a>
+                    <br>
+                    <a href="#" class="text-white text-decoration-none me-2">
+                        <i class="bi bi-twitter"></i> Twitter
+                    </a>
+                    <br>
+                    <a href="#" class="text-white text-decoration-none">
+                        <i class="bi bi-instagram"></i> Instagram
+                    </a>
+                </div>
+            </div>
+            <!-- Sección inferior -->
+            <div class="text-center mt-3">
+                <small>&copy; 2025 Tu Sitio Web. Todos los derechos reservados.</small>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Scripts de funcionamiento de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

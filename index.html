@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zarapatos - Tienda de Zapatos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="Logo" width="90" height="90" class="d-inline-block align-text-top">
+            </a>
+            <div class="d-flex flex-grow-1">
+                <h1 class="zarapatos">Zarapatos</h1>
+            </div>
+            <!-- Botón del menú -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html"><h4>Home</h4></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zapatos.html"><h4>Zapatos</h4></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"><h4>About</h4></a>
+                    </li>
+                </ul>
+                <!-- Barra de búsqueda -->
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar">
+                    <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Hero rediseñada -->
+    <main class="container my-5">
+        <div class="text-center mb-5">
+            <h1 class="display-4 mb-4">Bienvenidos a Zarapatos</h1>
+            <p class="lead">Encuentra el calzado perfecto para cada ocasión</p>
+            <a href="zapatos.html" class="btn btn-primary btn-lg px-5">Explorar Colección</a>
+        </div>
+
+        <!-- Sección de Categorías estilo productos -->
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/hombre.webp" class="card-img-top" alt="Calzado Hombre">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Para Hombre</h5>
+                        <p class="card-text">Estilo y comodidad para el día a día</p>
+                        <a href="#" class="btn btn-primary">Ver Colección</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/mujer.webp" class="card-img-top" alt="Calzado Mujer">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Para Mujer</h5>
+                        <p class="card-text">Elegancia en cada paso</p>
+                        <a href="#" class="btn btn-primary">Ver Colección</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/niños.jpg" class="card-img-top" alt="Calzado Niños">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Para Niños</h5>
+                        <p class="card-text">Diversión y comodidad para los más pequeños</p>
+                        <a href="#" class="btn btn-primary">Ver Colección</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Formulario -->
+    <section class="bg-light py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Únete a Nuestra Comunidad</h2>
+            <p>Descubre un mundo de estilo, confort y exclusividad al unirte a nuestra comunidad. En Zarapatos, creemos que cada paso cuenta, y queremos asegurarnos de que cada uno de ellos esté acompañado de calzado que refleje tu personalidad y estilo de vida.</p>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form class="d-flex gap-2">
+                        <input type="email" class="form-control" placeholder="Tu correo electrónico">
+                        <button class="btn btn-primary px-4" type="submit">Suscribirse</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5>Sobre Nosotros</h5>
+                    <p> Somos un equipo dedicado a ofrecer contenido de calidad. Este sitio es un ejemplo
+                        para aprender y practicar diseño web.
+                    </p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Enlaces Útiles</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="zapatos.html" class="text-white text-decoration-none">Zapatos</a></li>
+                        <li><a href="about.html" class="text-white text-decoration-none">Sobre Nosotros</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Síguenos</h5>
+                    <a href="#" class="text-white text-decoration-none me-2">
+                        <i class="bi bi-facebook"></i> Facebook
+                    </a><br>
+                    <a href="#" class="text-white text-decoration-none me-2">
+                        <i class="bi bi-instagram"></i> Instagram
+                    </a><br>
+                    <a href="#" class="text-white text-decoration-none">
+                        <i class="bi bi-tiktok"></i> TikTok
+                    </a>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <small>&copy; 2025 Zarapatos. Todos los derechos reservados.</small>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
